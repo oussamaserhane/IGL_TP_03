@@ -3,7 +3,15 @@ package Library_Managment;
 public class User{
 
 	private int id;
-	private String username;
+	public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    private String username;
 	private String password;
 
     public User(int id, String username, String password) {  // <----- To added
