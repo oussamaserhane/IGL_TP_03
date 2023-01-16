@@ -1,4 +1,5 @@
 package Library_Managment;
+
 import java.util.Scanner;
 
 public class Main {
@@ -6,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
         // initialisation of library instance
         Library_Managment_System library = new Library_Managment_System();
- 
+
         String T = "";
         // start listening to the user commands
         while (T != "exit") {
@@ -17,19 +18,19 @@ public class Main {
             System.out.println("4- To show all user tape  : users ");
             System.out.println("5- To close tape: exit ");
 
-            Scanner TappedValue = new Scanner(System.in);  // Create a Scanner object
-            String value = TappedValue.nextLine();  // Read user input
+            Scanner TappedValue = new Scanner(System.in); // Create a Scanner object
+            String value = TappedValue.nextLine(); // Read user input
 
             switch (value) {
                 case "r":
                     // create a new user block
                     System.out.println("Enter username");
                     String username = TappedValue.nextLine();
-                    
+
                     System.out.println("Enter password");
                     String password = TappedValue.nextLine();
-                    
-                    // call registration method to register the new user 
+
+                    // call registration method to register the new user
                     library.Register(username, password);
                     break;
 
@@ -52,7 +53,7 @@ public class Main {
 
                     break;
                 case "exit":
-                    // close 
+                    // close
                     System.out.println("closing ....");
                     T = "exit";
                     break;
@@ -60,7 +61,8 @@ public class Main {
                     System.out.println("Error: Invalid command try again");
                     break;
             }
-            
+
+            System.out.println("Bye");
             System.out.println("-------------------");
 
         }
