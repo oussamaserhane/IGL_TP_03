@@ -11,20 +11,18 @@ public class Librarian {
         this.password = password;
         this.serchString = serchString;
     }
-    
-    
 
-	private String name;
-	private int id;
-	private String password;
-	private String serchString;
+    private String name;
+    private int id;
+    private String password;
+    private String serchString;
 
-	public void Verify_libririan() {
+    public void Verify_libririan() {
 
-	}
+    }
 
-	public void Serach() {
+    // public void Serach() {
 
-	}
+    // }
 
 }
