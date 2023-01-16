@@ -14,6 +14,14 @@ public class Account {
 
 	private String no_book_lost;
 
+	public String getNo_book_lost() {
+		return no_book_lost;
+	}
+
+	public void setNo_book_lost(String no_book_lost) {
+		this.no_book_lost = no_book_lost;
+	}
+
 	private double fine_amount;
 
 	public void calculate_fine() {
