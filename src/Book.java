@@ -19,10 +19,10 @@ public class Book {
 
     public void show_bookInfos() {        // <----- To added
                   
-        System.out.println("Book Title:" + title);
-        System.out.println("Book Author:"+ auther);
-        System.out.println("Book ISBN:" + ISBN);
-        System.out.println("Book Publisher:" + publisher);
+        System.out.println("Le titre du livre:" + title);
+        System.out.println("L'auteur:"+ auther);
+        System.out.println("Livre ISBN:" + ISBN);
+        System.out.println("Livre:" + publisher);
         System.out.println("");
 	}
 
