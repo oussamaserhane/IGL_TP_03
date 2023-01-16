@@ -10,12 +10,15 @@ public class Main {
         String T = "";
         // start listening to the user commands
         while (T != "exit") {
-            System.out.println("        List of commands");
-            System.out.println("1- To Register a new user tape : r");
-            System.out.println("2- To create a new book tape : b");
-            System.out.println("3- To show all avaliable books tape : books ");
-            System.out.println("4- To show all user tape  : users ");
-            System.out.println("5- To close tape: exit ");
+            System.out.println("***************************************************");
+            System.out.println("|                List of commands                 |");
+            System.out.println("---------------------------------------------------");
+            System.out.println("| 1- To Register a new user tape : r              |");
+            System.out.println("| 2- To create a new book tape : b                |");
+            System.out.println("| 4- To show all avaliable books tape : books     |");
+            System.out.println("| 5- To show all user tape  : users               | ");
+            System.out.println("| 6- To close tape: exit                          |");
+            System.out.println("***************************************************");
 
             Scanner TappedValue = new Scanner(System.in);  // Create a Scanner object
             String value = TappedValue.nextLine();  // Read user input
